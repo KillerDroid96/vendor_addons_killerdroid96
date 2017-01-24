@@ -16,19 +16,7 @@ LOCAL_PREBUILT_JNI_LIBS_arm := \
 	@lib/armeabi/libtcpdump_exec.so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE       := PrebuiltBugle
-LOCAL_MODULE_TAGS  := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_SRC_FILES    := PrebuiltBugle.apk
-LOCAL_CERTIFICATE  := PRESIGNED
-LOCAL_MODULE_PATH  := $(TARGET_OUT_APPS)
-LOCAL_OVERRIDES_PACKAGES := messaging Messaging
-LOCAL_PREBUILT_JNI_LIBS_arm64 := \
-	@lib/arm64-v8a/libframesequence.so \
-	@lib/arm64-v8a/libgiftranscode.so
-include $(BUILD_PREBUILT)
-
+#SnapBrowser
 include $(CLEAR_VARS)
 LOCAL_MODULE       := SnapBrowser
 LOCAL_MODULE_TAGS  := optional
