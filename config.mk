@@ -6,4 +6,4 @@ PRODUCT_PACKAGES += \
     BenzoBlock \
     KernelAdiutor \
     SnapBrowser \
-    Superuser \
+    Superuser 
