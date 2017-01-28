@@ -5,6 +5,5 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGES += \
     BenzoBlock \
     KernelAdiutor \
-    SnapBrowser \
-    Viper4Arise
+    SnapBrowser 
     
