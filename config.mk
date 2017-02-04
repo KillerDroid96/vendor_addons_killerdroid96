@@ -3,7 +3,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Prebuilts
 PRODUCT_PACKAGES += \
-    BenzoBlock \
+    AdAway \
     KernelAdiutor \
     SnapBrowser 
     

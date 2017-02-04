@@ -2,10 +2,10 @@
 LOCAL_PATH := $(call my-dir)
 
 
-# InstallBenzoBlock (smaller AdAway)
+#AdAway
 include $(CLEAR_VARS)
-LOCAL_MODULE := BenzoBlock
-LOCAL_SRC_FILES := BenzoBlock.apk
+LOCAL_MODULE := AdAway
+LOCAL_SRC_FILES := AdAway.apk
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
