@@ -5,5 +5,4 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGES += \
     AdAway \
     KernelAdiutor \
-    SnapBrowser \
     Substratum
