@@ -1,4 +1,3 @@
-
 LOCAL_PATH := $(call my-dir)
 
 #AdAway
@@ -13,6 +12,9 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_PREBUILT_JNI_LIBS_arm := \
 	@lib/armeabi/libblank_webserver_exec.so \
 	@lib/armeabi/libtcpdump_exec.so
+include $(BUILD_PREBUILT)
+
+#SnapBrowser
 include $(CLEAR_VARS)
 LOCAL_MODULE       := SnapBrowser
 LOCAL_MODULE_TAGS  := optional
