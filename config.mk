@@ -11,4 +11,5 @@ PRODUCT_PACKAGES += \
     KernelAdiutor \
     SnapBrowser \
     Substratum \
-    Spectrum
+    Spectrum \
+    Turbo
