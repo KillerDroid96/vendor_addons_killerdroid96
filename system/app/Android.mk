@@ -1,9 +1,9 @@
 LOCAL_PATH := $(call my-dir)
 
-#BenzoBlock (smaller AdAway)
+#AdAway
 include $(CLEAR_VARS)
-LOCAL_MODULE := BenzoBlock
-LOCAL_SRC_FILES := BenzoBlock.apk
+LOCAL_MODULE := AdAway
+LOCAL_SRC_FILES := AdAway.apk
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
@@ -32,7 +32,7 @@ LOCAL_PREBUILT_JNI_LIBS_arm := \
 	@lib/armeabi-v7a/libswev8.so
 include $(BUILD_PREBUILT)
 
-# Install Substratum
+# Substratum
 include $(CLEAR_VARS)
 LOCAL_MODULE := Substratum
 LOCAL_SRC_FILES := Substratum.apk
@@ -41,4 +41,14 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_PATH  := $(TARGET_OUT_APPS)
 LOCAL_MODULE_TAGS := optional
+include $(BUILD_PREBUILT)
+
+# Spectrum
+include $(CLEAR_VARS)
+LOCAL_MODULE := Spectrum
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := Spectrum.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)

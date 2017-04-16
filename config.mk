@@ -10,4 +10,5 @@ PRODUCT_PACKAGES += \
     AdAway \
     KernelAdiutor \
     SnapBrowser \
-    Substratum
+    Substratum \
+    Spectrum
