@@ -12,4 +12,5 @@ PRODUCT_PACKAGES += \
     SnapBrowser \
     Substratum \
     Spectrum \
-    Turbo
+    Turbo \
+    DeepDarkness
